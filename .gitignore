@@ -1,12 +1,139 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+import java.util.Scanner;
+public class test_ {
+	
+	private static Scanner sc;
+	public static void main(String[] args) {
+		
+		int sayi,x,a,b,c,db,h=0;
+		sc = new Scanner(System.in);
+		System.out.print("Enter the width of the house:");
+		sayi=sc.nextInt();
+		
+		a=(sayi)/2;
+	    b=(a/2)+1;
+		c=(b/2)+1;
+		x=sayi/10;  
+	
+		for (int i=0; i<b-1 ; i++){ 
+			    int rı=0; 
+		   if(sayi-(b-1)*4+1+rı-2>0){
+			  if(i>0){
+				   db=((i+2)%10);
+				   System.out.print(db+" ");}
+				if(h==0){System.out.print("1 ");}
+				for(int u=b-2;u>i;u-=1)
+					System.out.print("  ");
+				
+				if(h==0){
+					System.out.println("   +");
+					System.out.print((i+2)+" ");
+				for(int u=b-2;u>i;u-=1)
+					System.out.print("  ");
+					h++;}
+				    System.out.print(" ");
+				for(int k=0; i>=k;k++) 
+					System.out.print("//");
+	                System.out.print("+");
+			    for (int j=0 ; j<=i ; j++){
+			    	System.out.print("\\\\");}
+			        System.out.println();
+			        rı--;
+		} 
+		   else{   
+			if(i>0){
+			   db=((i+2)%10);
+			   System.out.print(db+" ");}
+			if(h==0){System.out.print("1 ");}
+			for(int u=b-2;u>i;u-=1)
+				System.out.print("  "); 
+			
+			if(h==0){
+				System.out.println("  +");
+				System.out.print((i+2)+" ");
+			for(int u=b-2;u>i;u-=1)
+					System.out.print("  ");
+				h++;}
+			for(int k=0; i>=k;k++)
+		     	System.out.print("//");
+                System.out.print("+");
+		    for (int j=0 ; j<=i ; j++){
+		    	System.out.print("\\\\");}
+		        System.out.println();
+    		   }  }
+		    for(int p=1;x>=p;p++){ 
+		        int dn=(((b)+p)%10);
+		        	System.out.print(dn+" ");
+		    for(int s=1;sayi>=s;s++)
+	        	    System.out.print("0");
+		     	    System.out.println();
+	       	}
+		  
+		    int ab=sayi-(2*b+2*x);
+		    int ca=b-(b/2)-1;
+		    int ty=b/2;
+		    int v=(c/2)+1;
+			
+		    for(int n=1;c>=n;n++){ 
+              int an=(b+x+n)%10;
+                System.out.print(an+" ");
+			  if(v==n){
+        	for(int p=1;x>=p;p++)
+    	        System.out.print("0");
+            for(int z=1;b>=z;z++)
+     	        System.out.print("*");
+            for(int wy=1;ab>=wy;wy++)
+             	System.out.print("0");
+            for(int wu=0;b>wu;wu++)
+            	System.out.print("*");
+            for(int wı=1;x>=wı;wı++)
+            	System.out.print("0");
+                System.out.println();}
+        else{
+			for(int p=1;x>=p;p++) 
+	            System.out.print("0");
+         	for(int z=1;ty>=z;z++){
+         		System.out.print(" ");}
+         	    System.out.print("*");
+         	for(int l=1;ca>=l;l++)
+         		System.out.print(" ");
+         	for(int w=1;ab>=w;w++)
+         		System.out.print("0");
+         	for(int we=1;ty>=we;we++)
+         		System.out.print(" ");
+         	    System.out.print("*");
+         	for(int wr=1;ca>=wr;wr++)
+         	    System.out.print(" ");  
+         	for(int wt=1;x>=wt;wt++)
+            	System.out.print("0");
+		        System.out.println();}
+		         }                               
+			x--;
+			int wo=a-(2*c+x+1);
+			for(int wp=1;wo>=wp;wp++){
+				System.out.print(((b+x+c+wp+1)%10)+" ");
+				for(int wa=1;sayi>=wa;wa++)
+				System.out.print("0");
+			System.out.println();}
+			
+			int ws=(sayi-b)/2;
+			int ry= sayi-(ws+b);
+			int ru=b-(ty+1);
+			for(int wd=1;c>=wd;wd++){
+				System.out.print((b+c+x+wo+wd+1)%10+" ");
+				for(int wf=1;ws>=wf;wf++)
+					System.out.print("0");
+			for(int wg=1;ty>=wg;wg++)
+				System.out.print(" ");
+			System.out.print("*");
+			for(int wh=1;ru>=wh;wh++)
+				System.out.print(" ");
+			for(int wj=1;ry>=wj;wj++)
+				System.out.print("0");
+			System.out.println();}
+			int dv; 
+			System.out.print("  ");
+			for(int dc=1;sayi>=dc;dc++){
+				dv=(dc%10);
+				System.out.print(dv);}			
+			}
+	}
